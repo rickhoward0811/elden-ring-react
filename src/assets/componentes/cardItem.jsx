@@ -8,5 +8,6 @@ function CardItem({ item }) {
         </div>
     );
 }
+//Criação CardItem
 
 export default CardItem;
