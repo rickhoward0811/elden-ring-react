@@ -12,8 +12,7 @@ function App() {
       <button onClick={() => setCategoria("Arma")}>Armas</button>
       <button onClick={() => setCategoria("Feitico")}>Feitiços</button>
       <button onClick={() => setCategoria("Encantamento")}>Encantamentos</button>
-       <button onClick={() => setCategoria("Chefes")}>Chefes</button>
-      
+            
       <h1>Galeria de Itens</h1>
       {itens.filter((item) => 
         categoriaSelecionada === "Todos" || item.categoria === categoriaSelecionada

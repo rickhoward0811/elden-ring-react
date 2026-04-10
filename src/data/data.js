@@ -9,14 +9,14 @@ export const itens = [
   {
     id: 2,
     nome: "Rivers of Blood",
-    categoria: "Armas",
+    categoria: "Arma",
     imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/rivers_of_blood_katana_weapon_elden_ring_wiki_guide_200px.png",
     descricao: "Katana famosa por causar sangramento massivo."
   },
   {
     id: 3,
     nome: "Moonveil",
-    categoria: "Armas",
+    categoria: "Arma",
     imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/moonveil_katana_weapon_elden_ring_wiki_guide_200px.png",
     descricao: "Katana mágica que dispara ondas de energia."
   },
@@ -31,7 +31,7 @@ export const itens = [
   {
     id: 5,
     nome: "Frenzied Burst",
-    categoria: "Encantamentos",
+    categoria: "Encantamento",
     imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/frenzied_burst_incantation_elden_ring_wiki_guide_200px.png",
     descricao: "Dispara um feixe concentrado de loucura à longa distância."
  },
@@ -46,14 +46,14 @@ export const itens = [
   {
     id: 7,
     nome: "Blasphemous Blade",
-    categoria: "Armas",
+    categoria: "Arma",
     imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/blasphemous_blade_weapon_elden_ring_wiki_guide_200px.png",
     descricao: "Espada que recupera vida ao derrotar inimigos."
   },
   {
     id: 8,
     nome: "Lightning Spear",
-    categoria: "Encantamentos",
+    categoria: "Encantamento",
     imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/lightning_spear_incantation_elden_ring_wiki_guide_200px.png",
     descricao: "Lança uma lança de raio contra o inimigo."
   },
@@ -67,7 +67,7 @@ export const itens = [
   {
     id: 10,
     nome: "Black Knife",
-    categoria: "Armas",
+    categoria: "Arma",
     imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/black_knife_dagger_weapon_elden_ring_wiki_guide_200px.png",
     descricao: "Adaga lendária com dano sombrio."
   },
@@ -92,13 +92,56 @@ export const itens = [
   imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/dragonfire_incantation_elden_ring_wiki_guide_200px.png",
   descricao: "Invoca a cabeça de um dragão que cospe fogo contínuo."
 },
- {
-  id: 14,
-  nome: "Malenia, Blade of Miquella",
-  categoria: "Chefes",
-  imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/malenia_blade_of_miquella_boss_elden_ring_wiki_guide_300px.png",
-  descricao: "Uma guerreira lendária com velocidade absurda e capacidade de regeneração."
- },
- 
 
+{
+  id: 16,
+  nome: "Black Flame",
+  categoria: "Encantamento",
+  imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/black_flame_incantation_elden_ring_wiki_guide_200px.png",
+  descricao: "Lança uma chama negra que continua causando dano ao longo do tempo."
+},
+
+{
+  id: 17,
+  nome: "Bloodflame Blade",
+  categoria: "Encantamento",
+  imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/bloodflame_blade_incantation_elden_ring_wiki_guide_200px.png",
+  descricao: "Encanta a arma com fogo sangrento, causando sangramento adicional."
+},
+{
+  id: 18,
+  nome: "Giantsflame Take Thee",
+  categoria: "Encantamento",
+  imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/giantsflame_take_thee_incantation_elden_ring_wiki_guide_200px.png",
+  descricao: "Lança uma enorme bola de fogo dos gigantes que explode ao impacto."
+},
+{
+  id: 19,
+  nome: "Frenzied Burst",
+  categoria: "Encantamento",
+  imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/frenzied_burst_incantation_elden_ring_wiki_guide_200px.png",
+  descricao: "Dispara um feixe de loucura pelos olhos causando dano à distância."
+},
+
+{
+  id: 20,
+  nome: "Maliketh's Black Blade",
+  categoria: "Arma",
+  imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/malikeths_black_blade_colossal_swords_elden_ring_wiki_guide_200px.png",
+  descricao: "Espada sombria que reduz a vida máxima dos inimigos."
+},
+{
+  id: 21,
+  nome: "Sword of Night and Flame",
+  categoria: "Arma",
+  imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/sword_of_night_and_flame_straight_sword_weapon_elden_ring_wiki_guide_200px.png",
+  descricao: "Espada lendária com ataques mágicos e de fogo."
+},
+{
+  id: 22,
+  nome: "Godslayer's Greatsword",
+  categoria: "Arma",
+  imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/godslayers_greatsword_colossal_swords_elden_ring_wiki_guide_200px.png",
+  descricao: "Espada colossal que usa chamas negras dos deuses."
+}
 ];
