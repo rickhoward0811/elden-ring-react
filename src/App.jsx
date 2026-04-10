@@ -1,6 +1,8 @@
 import { itens } from "./data/data.js";
 import { useState } from "react";
 import CardItem from "./assets/componentes/cardItem";
+import './App.css';
+
 
 function App() {
   const [categoriaSelecionada, setCategoria] = useState("Todos")
@@ -10,6 +12,7 @@ function App() {
       <button onClick={() => setCategoria("Arma")}>Armas</button>
       <button onClick={() => setCategoria("Feitico")}>Feitiços</button>
       <button onClick={() => setCategoria("Encantamento")}>Encantamentos</button>
+       <button onClick={() => setCategoria("Chefes")}>Chefes</button>
       
       <h1>Galeria de Itens</h1>
       {itens.filter((item) => 
