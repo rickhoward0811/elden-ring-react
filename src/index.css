@@ -51,7 +51,7 @@
 }
 
 body {
-  margin: 0;
+  border-inline: 1px solid var(--border);
 }
 
 #root {
