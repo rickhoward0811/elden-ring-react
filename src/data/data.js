@@ -160,7 +160,7 @@ export const itens = [
     categoria: "Arma",
     cinzaDeGuerra: true,
     habilidadeUnica: false,
-    imagem: "/src/assets/weapons/Greatsword.png",
+    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/great_katana_great_katana_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
     descricao: "Espada colossal inspirada na arma de Guts de Berserk, extremamente poderosa e versátil."
   },
   {
@@ -196,7 +196,7 @@ export const itens = [
     categoria: "Arma",
     cinzaDeGuerra: true,
     habilidadeUnica: false,
-    imagem: "/src/assets/weapons/uchigatana.webp",
+    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/uchigatana_elden_ring_wiki_guide_200px.png",
     descricao: "Katana tradicional que pode receber Cinzas de Guerra e causar sangramento."
   },
 
@@ -206,7 +206,7 @@ export const itens = [
     categoria: "Arma",
     cinzaDeGuerra: true,
     habilidadeUnica: false,
-    imagem: "/src/assets/weapons/Lord.webp",
+    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/alabaster_lords_sword_weapon_elden_ring_wiki_guide_200px.png",
     descricao: "Espada comum usada por soldados, altamente adaptável com Cinzas de Guerra."
   },
   {
@@ -214,7 +214,7 @@ export const itens = [
   nome: "Malenia, Blade of Miquella",
   categoria: "Boss",
   elemento: "fogo",
-  imagem: "/src/assets/weapons/Malenia.png",
+  imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/malenia_set.png",
   descricao: "Uma das guerreiras mais poderosas, conhecida por sua habilidade absurda e regeneração."
 },
 {
@@ -222,7 +222,7 @@ export const itens = [
   nome: "Maliketh, the Black Blade",
   categoria: "Boss",
   elemento: "morte",
-  imagem: "/src/assets/weapons/Maliketh.webp",
+  imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/maliketh_set.png",
   descricao: "Guardião da Runa da Morte, extremamente ágil e capaz de causar dano contínuo devastador."
 },
 {
@@ -230,7 +230,7 @@ export const itens = [
   nome: "Godrick the Grafted",
   categoria: "Boss",
   elemento: "vento",
-  imagem: "/src/assets/weapons/Godrik.webp",
+  imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/godrick_knight_set.png",
   descricao: "Semideus que enxerta membros de outros guerreiros em seu corpo para aumentar seu poder."
 },
 {
@@ -238,7 +238,90 @@ export const itens = [
   nome: "Radahn",
   categoria: "Boss",
   elemento: "pedra",
-  imagem: "/src/assets/weapons/radahn.jpg",
+  imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/radahn_set.png",
   descricao: "General lendário que domina a gravidade e luta montado, sendo um dos confrontos mais épicos."
+},
+{
+  id: 33,
+  nome: "Carian Knight's Sword",
+  categoria: ["Arma", "Feitico"],
+  cinzaDeGuerra: false,
+  habilidadeUnica: true,
+  imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/carian_knights_sword_straight_sword_weapon_elden_ring_wiki_guide_200px.png",
+  descricao: "Espada que utiliza feitiçaria de Caria para criar lâminas mágicas."
+},
+{
+  id: 34,
+  nome: "Dark Moon Greatsword",
+  categoria: ["Arma", "Feitico"],
+  cinzaDeGuerra: false,
+  habilidadeUnica: true,
+  imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/dark_moon_greatsword_weapon_elden_ring_wiki_guide_200px.png",
+  descricao: "Espada lendária que dispara ondas de energia mágica."
+},
+{
+  id: 35,
+  nome: "Loretta's War Sickle",
+  categoria: ["Arma", "Feitico"],
+  cinzaDeGuerra: false,
+  habilidadeUnica: true,
+  imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/lorettas_war_sickle_halberd_weapon_elden_ring_wiki_guide_200px.png",
+  descricao: "Arma que combina ataques físicos com magia."
+},
+{
+  id: 36,
+  nome: "Glintstone Staff",
+  categoria: ["Arma", "Feitico"],
+  cinzaDeGuerra: false,
+  habilidadeUnica: false,
+  imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/glintstone_staff_glintstonestaff_weapon_elden_ring_wiki_guide_200px.png",
+  descricao: "Cajado utilizado para conjurar feitiços."
+},
+{
+  id: 37,
+  nome: "Erdtree Seal",
+  categoria: ["Arma", "Encantamento"],
+  cinzaDeGuerra: false,
+  habilidadeUnica: false,
+  imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/erdtree_seal_sacred_seal_weapon_elden_ring_wiki_guide_200px.png",
+  descricao: "Catalisador usado para lançar encantamentos."
+},
+{
+  id: 38,
+  nome: "Carian Piercer",
+  categoria: ["Feitico", "Arma"],
+  imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/carian_piercer_sorcery_elden_ring_wiki_guide_200px.png",
+  descricao: "Invoca uma espada mágica gigante que perfura inimigos."
+},
+{
+  id: 39,
+  nome: "Adula's Moonblade",
+  categoria: ["Feitico", "Arma"],
+  imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/adulas_moonblade_sorcery_elden_ring_wiki_guide_200px.png",
+  descricao: "Cria uma lâmina mágica que também dispara ondas de energia."
+},
+{
+  id: 40,
+  nome: "Scholar's Armament",
+  categoria: ["Feitico", "Arma"],
+  imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/scholars_armament_sorcery_elden_ring_wiki_guide_200px.png",
+  descricao: "Encanta armas com magia, adicionando dano mágico."
+},
+{
+  id: 41,
+  nome: "Magic Shield",
+  categoria: ["Feitico", "Escudo"],
+  imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/scholars_shield-elden-ring-wiki-guide-200px.png",
+  descricao: "Fortalece escudos com energia mágica."
+},
+{
+  id: 42,
+  nome: "Barricade Shield",
+  categoria: ["Escudo", "Arma"],
+  cinzaDeGuerra: true,
+  habilidadeUnica: false,
+  imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/ash_of_war_barricade_shield_elden_ring_wiki_guide_200px.png",
+  descricao: "Habilidade que transforma o escudo em uma defesa extremamente poderosa."
 }
+
 ];
