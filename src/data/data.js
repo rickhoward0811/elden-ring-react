@@ -121,13 +121,6 @@ export const itens = [
   },
   {
     id: 19,
-    nome: "Frenzied Burst",
-    categoria: "Encantamento",
-    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/frenzied_burst_incantation_elden_ring_wiki_guide_200px.png",
-    descricao: "Dispara um feixe de loucura pelos olhos causando dano à distância."
-  },
-  {
-    id: 20,
     nome: "Maliketh's Black Blade",
     categoria: "Arma",
     cinzaDeGuerra: false,
@@ -136,16 +129,16 @@ export const itens = [
     descricao: "Espada sombria que reduz a vida máxima dos inimigos."
   },
   {
-    id: 21,
+    id: 20,
     nome: "Sword of Night and Flame",
-    categoria: "Arma",
+    categoria: ["Arma", "Feitico", "Encantamento"],
     cinzaDeGuerra: false,
     habilidadeUnica: true,
     imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/sword_of_night_and_flame_straight_sword_weapon_elden_ring_wiki_guide_200px.png",
-    descricao: "Espada lendária com ataques mágicos e de fogo."
+    descricao: "Espada lendária capaz de conjurar magia arcana e chamas sagradas ao mesmo tempo."
   },
   {
-    id: 22,
+    id: 21,
     nome: "Godslayer's Greatsword",
     categoria: "Arma",
     cinzaDeGuerra: false,
@@ -153,9 +146,8 @@ export const itens = [
     imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/godslayers_greatsword_colossal_swords_elden_ring_wiki_guide_200px.png",
     descricao: "Espada colossal que usa chamas negras dos deuses."
   },
-  //
   {
-    id: 23,
+    id: 22,
     nome: "Greatsword",
     categoria: "Arma",
     cinzaDeGuerra: true,
@@ -164,7 +156,7 @@ export const itens = [
     descricao: "Espada colossal inspirada na arma de Guts de Berserk, extremamente poderosa e versátil."
   },
   {
-    id: 24,
+    id: 23,
     nome: "Longsword",
     categoria: "Arma",
     cinzaDeGuerra: true,
@@ -173,7 +165,7 @@ export const itens = [
     descricao: "Espada equilibrada que pode receber diversas Cinzas de Guerra."
   },
   {
-    id: 25,
+    id: 24,
     nome: "Claymore",
     categoria: "Arma",
     cinzaDeGuerra: true,
@@ -182,7 +174,7 @@ export const itens = [
     descricao: "Espada grande versátil com suporte completo a Cinzas de Guerra."
   },
   {
-    id: 26,
+    id: 25,
     nome: "Battle Axe",
     categoria: "Arma",
     cinzaDeGuerra: true,
@@ -191,7 +183,7 @@ export const itens = [
     descricao: "Machado pesado que pode ser modificado com Cinzas de Guerra."
   },
   {
-    id: 27,
+    id: 26,
     nome: "Uchigatana",
     categoria: "Arma",
     cinzaDeGuerra: true,
@@ -199,9 +191,8 @@ export const itens = [
     imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/uchigatana_elden_ring_wiki_guide_200px.png",
     descricao: "Katana tradicional que pode receber Cinzas de Guerra e causar sangramento."
   },
-
   {
-    id: 28,
+    id: 27,
     nome: "Lordsworn's Straight Sword",
     categoria: "Arma",
     cinzaDeGuerra: true,
@@ -210,118 +201,334 @@ export const itens = [
     descricao: "Espada comum usada por soldados, altamente adaptável com Cinzas de Guerra."
   },
   {
-  id: 29,
-  nome: "Malenia, Blade of Miquella",
-  categoria: "Boss",
-  elemento: "fogo",
-  imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/malenia_set.png",
-  descricao: "Uma das guerreiras mais poderosas, conhecida por sua habilidade absurda e regeneração."
-},
-{
-  id: 30,
-  nome: "Maliketh, the Black Blade",
-  categoria: "Boss",
-  elemento: "morte",
-  imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/maliketh_set.png",
-  descricao: "Guardião da Runa da Morte, extremamente ágil e capaz de causar dano contínuo devastador."
-},
-{
-  id: 31,
-  nome: "Godrick the Grafted",
-  categoria: "Boss",
-  elemento: "vento",
-  imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/godrick_knight_set.png",
-  descricao: "Semideus que enxerta membros de outros guerreiros em seu corpo para aumentar seu poder."
-},
-{
-  id: 32,
-  nome: "Radahn",
-  categoria: "Boss",
-  elemento: "pedra",
-  imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/radahn_set.png",
-  descricao: "General lendário que domina a gravidade e luta montado, sendo um dos confrontos mais épicos."
-},
-{
-  id: 33,
-  nome: "Carian Knight's Sword",
-  categoria: ["Arma", "Feitico"],
-  cinzaDeGuerra: false,
-  habilidadeUnica: true,
-  imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/carian_knights_sword_straight_sword_weapon_elden_ring_wiki_guide_200px.png",
-  descricao: "Espada que utiliza feitiçaria de Caria para criar lâminas mágicas."
-},
-{
-  id: 34,
-  nome: "Dark Moon Greatsword",
-  categoria: ["Arma", "Feitico"],
-  cinzaDeGuerra: false,
-  habilidadeUnica: true,
-  imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/dark_moon_greatsword_weapon_elden_ring_wiki_guide_200px.png",
-  descricao: "Espada lendária que dispara ondas de energia mágica."
-},
-{
-  id: 35,
-  nome: "Loretta's War Sickle",
-  categoria: ["Arma", "Feitico"],
-  cinzaDeGuerra: false,
-  habilidadeUnica: true,
-  imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/lorettas_war_sickle_halberd_weapon_elden_ring_wiki_guide_200px.png",
-  descricao: "Arma que combina ataques físicos com magia."
-},
-{
-  id: 36,
-  nome: "Glintstone Staff",
-  categoria: ["Arma", "Feitico"],
-  cinzaDeGuerra: false,
-  habilidadeUnica: false,
-  imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/glintstone_staff_glintstonestaff_weapon_elden_ring_wiki_guide_200px.png",
-  descricao: "Cajado utilizado para conjurar feitiços."
-},
-{
-  id: 37,
-  nome: "Erdtree Seal",
-  categoria: ["Arma", "Encantamento"],
-  cinzaDeGuerra: false,
-  habilidadeUnica: false,
-  imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/erdtree_seal_sacred_seal_weapon_elden_ring_wiki_guide_200px.png",
-  descricao: "Catalisador usado para lançar encantamentos."
-},
-{
-  id: 38,
-  nome: "Carian Piercer",
-  categoria: ["Feitico", "Arma"],
-  imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/carian_piercer_sorcery_elden_ring_wiki_guide_200px.png",
-  descricao: "Invoca uma espada mágica gigante que perfura inimigos."
-},
-{
-  id: 39,
-  nome: "Adula's Moonblade",
-  categoria: ["Feitico", "Arma"],
-  imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/adulas_moonblade_sorcery_elden_ring_wiki_guide_200px.png",
-  descricao: "Cria uma lâmina mágica que também dispara ondas de energia."
-},
-{
-  id: 40,
-  nome: "Scholar's Armament",
-  categoria: ["Feitico", "Arma"],
-  imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/scholars_armament_sorcery_elden_ring_wiki_guide_200px.png",
-  descricao: "Encanta armas com magia, adicionando dano mágico."
-},
-{
-  id: 41,
-  nome: "Magic Shield",
-  categoria: ["Feitico", "Escudo"],
-  imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/scholars_shield-elden-ring-wiki-guide-200px.png",
-  descricao: "Fortalece escudos com energia mágica."
-},
-{
-  id: 42,
-  nome: "Barricade Shield",
-  categoria: ["Escudo", "Arma"],
-  cinzaDeGuerra: true,
-  habilidadeUnica: false,
-  imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/ash_of_war_barricade_shield_elden_ring_wiki_guide_200px.png",
-  descricao: "Habilidade que transforma o escudo em uma defesa extremamente poderosa."
-}
+    id: 28,
+    nome: "Magma Blade",
+    categoria: "Arma",
+    cinzaDeGuerra: false,
+    habilidadeUnica: true,
+    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/magma_blade_curved_sword_weapon_elden_ring_wiki_guide_200px.png",
+    descricao: "Espada curva que libera lava em ataques flamejantes."
+  },
+  {
+    id: 29,
+    nome: "Bolt of Gransax",
+    categoria: "Arma",
+    cinzaDeGuerra: false,
+    habilidadeUnica: true,
+    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/bolt_of_gransax_spear_weapon_elden_ring_wiki_guide_200px.png",
+    descricao: "Lança lendária que dispara um poderoso raio vermelho sobre o inimigo."
+  },
+  {
+    id: 30,
+    nome: "Wing of Astel",
+    categoria: "Arma",
+    cinzaDeGuerra: false,
+    habilidadeUnica: true,
+    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/wing_of_astel_curved_sword_weapon_elden_ring_wiki_guide_200px.png",
+    descricao: "Espada cósmica que libera ondas de energia estelar."
+  },
+  {
+    id: 31,
+    nome: "Morgott's Cursed Sword",
+    categoria: "Arma",
+    cinzaDeGuerra: false,
+    habilidadeUnica: true,
+    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/morgotts_cursed_sword_curved_greatsword_weapon_elden_ring_wiki_guide_200px.png",
+    descricao: "Espada amaldiçoada do rei Morgott que executa golpes rápidos com energia sombria."
+  },
+
+
+  {
+    id: 32,
+    nome: "Godrick the Grafted",
+    categoria: "Boss",
+    elemento: "tempestade",
+    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/godrick_the_grafted_bosses_elden_ring_wiki_600px.jpg",
+    descricao: "Semideus enlouquecido que enxerta membros em seu corpo para aumentar seu poder e controlar ventos violentos."
+  },
+  {
+    id: 33,
+    nome: "Carian Knight's Sword",
+    categoria: ["Arma", "Feitico"],
+    cinzaDeGuerra: false,
+    habilidadeUnica: true,
+    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/carian_knights_sword_straight_sword_weapon_elden_ring_wiki_guide_200px.png",
+    descricao: "Espada que utiliza feitiçaria de Caria para criar lâminas mágicas."
+  },
+  {
+    id: 34,
+    nome: "Dark Moon Greatsword",
+    categoria: ["Arma", "Feitico"],
+    cinzaDeGuerra: false,
+    habilidadeUnica: true,
+    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/dark_moon_greatsword_weapon_elden_ring_wiki_guide_200px.png",
+    descricao: "Espada lendária que dispara ondas de energia mágica."
+  },
+  {
+    id: 35,
+    nome: "Loretta's War Sickle",
+    categoria: ["Arma", "Feitico"],
+    cinzaDeGuerra: false,
+    habilidadeUnica: true,
+    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/lorettas_war_sickle_halberd_weapon_elden_ring_wiki_guide_200px.png",
+    descricao: "Arma que combina ataques físicos com magia."
+  },
+  {
+    id: 36,
+    nome: "Glintstone Staff",
+    categoria: ["Arma", "Feitico"],
+    cinzaDeGuerra: false,
+    habilidadeUnica: false,
+    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/glintstone_staff_glintstonestaff_weapon_elden_ring_wiki_guide_200px.png",
+    descricao: "Cajado utilizado para conjurar feitiços."
+  },
+  {
+    id: 37,
+    nome: "Erdtree Seal",
+    categoria: ["Arma", "Encantamento"],
+    cinzaDeGuerra: false,
+    habilidadeUnica: false,
+    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/erdtree_seal_sacred_seal_weapon_elden_ring_wiki_guide_200px.png",
+    descricao: "Catalisador usado para lançar encantamentos."
+  },
+  {
+    id: 38,
+    nome: "Carian Piercer",
+    categoria: ["Feitico", "Arma"],
+    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/carian_piercer_sorcery_elden_ring_wiki_guide_200px.png",
+    descricao: "Invoca uma espada mágica gigante que perfura inimigos."
+  },
+  {
+    id: 39,
+    nome: "Adula's Moonblade",
+    categoria: ["Feitico", "Arma"],
+    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/adulas_moonblade_sorcery_elden_ring_wiki_guide_200px.png",
+    descricao: "Cria uma lâmina mágica que também dispara ondas de energia."
+  },
+  {
+    id: 40,
+    nome: "Scholar's Armament",
+    categoria: ["Feitico", "Arma"],
+    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/scholars_armament_sorcery_elden_ring_wiki_guide_200px.png",
+    descricao: "Encanta armas com magia, adicionando dano mágico."
+  },
+  {
+    id: 41,
+    nome: "Magic Shield",
+    categoria: ["Feitico", "Escudo"],
+    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/scholars_shield-elden-ring-wiki-guide-200px.png",
+    descricao: "Fortalece escudos com energia mágica."
+  },
+  {
+    id: 42,
+    nome: "Barricade Shield",
+    categoria: ["Escudo", "Arma"],
+    cinzaDeGuerra: true,
+    habilidadeUnica: false,
+    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/ash_of_war_barricade_shield_elden_ring_wiki_guide_200px.png",
+    descricao: "Habilidade que transforma o escudo em uma defesa extremamente poderosa."
+  },
+  {
+    id: 43,
+    nome: "Dragon Communion Seal",
+    categoria: ["Arma", "Encantamento"],
+    cinzaDeGuerra: false,
+    habilidadeUnica: false,
+    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/dragon_communion_seal_sacred_seal_weapon_elden_ring_wiki_guide_200px.png",
+    descricao: "Selo sagrado que fortalece encantamentos relacionados aos dragões."
+  },
+  {
+    id: 44,
+    nome: "Golden Order Seal",
+    categoria: ["Arma", "Encantamento", "Feitico"],
+    cinzaDeGuerra: false,
+    habilidadeUnica: false,
+    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/golden_order_seal_sacred_seal_weapon_elden_ring_wiki_guide_200px.png",
+    descricao: "Selo usado para conjurar encantamentos da Ordem Dourada."
+  },
+  {
+    id: 45,
+    nome: "Gravel Stone Seal",
+    categoria: ["Arma", "Encantamento"],
+    cinzaDeGuerra: false,
+    habilidadeUnica: false,
+    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/gravel_stone_seal_sacred_seal_weapon_elden_ring_wiki_guide_200px.png",
+    descricao: "Selo que aumenta o poder dos encantamentos de relâmpago."
+  },
+  {
+    id: 46,
+    nome: "Godslayer's Seal",
+    categoria: ["Arma", "Encantamento"],
+    cinzaDeGuerra: false,
+    habilidadeUnica: false,
+    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/godslayers_seal_sacred_seal_weapon_elden_ring_wiki_guide_200px.png",
+    descricao: "Selo sagrado que fortalece encantamentos da chama negra."
+  },
+  {
+    id: 47,
+    nome: "Giant's Seal",
+    categoria: ["Arma", "Encantamento"],
+    cinzaDeGuerra: false,
+    habilidadeUnica: false,
+    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/giants_seal_sacred_seal_weapon_elden_ring_wiki_guide_200px.png",
+    descricao: "Selo especializado em aumentar encantamentos de fogo dos gigantes."
+  },
+  {
+    id: 48,
+    nome: "Burn, O Flame!",
+    categoria: "Encantamento",
+    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/burn_o_flame_incantation_elden_ring_wiki_guide_200px.png",
+    descricao: "Cria pilares de fogo ao redor do conjurador que explodem causando grande dano em área."
+  },
+  {
+    id: 49,
+    nome: "Eleonora's Poleblade",
+    categoria: "Arma",
+    cinzaDeGuerra: false,
+    habilidadeUnica: true,
+    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/eleonoras_poleblade_twinblade_weapon_elden_ring_wiki_guide_200px.png",
+    descricao: "Lâmina dupla que causa sangramento com ataques giratórios extremamente rápidos."
+  },
+  {
+    id: 50,
+    nome: "Hand of Malenia",
+    categoria: "Arma",
+    cinzaDeGuerra: false,
+    habilidadeUnica: true,
+    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/hand_of_malenia_katana_weapon_elden_ring_wiki_guide_200px.png",
+    descricao: "Katana lendária usada por Malenia, com golpes velozes e devastadores."
+  },
+
+  {
+    id: 51,
+    nome: "Ranni's Dark Moon",
+    categoria: "Feitico",
+    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/rannis_dark_moon_sorcery_elden_ring_wiki_guide_200px.png",
+    descricao: "Invoca uma lua sombria que enfraquece inimigos e causa dano mágico."
+  },
+  {
+    id: 52,
+    nome: "Loretta's Greatbow",
+    categoria: "Feitico",
+    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/lorettas_greatbow_sorcery_elden_ring_wiki_guide_200px.png",
+    descricao: "Cria um grande arco mágico para disparar uma flecha poderosa."
+  },
+
+  {
+    id: 53,
+    nome: "Scarlet Aeonia",
+    categoria: "Encantamento",
+    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/scarlet_aeonia_incantation_elden_ring_wiki_guide_200px.png",
+    descricao: "Transforma o usuário em uma flor escarlate que explode em podridão."
+  },
+  {
+    id: 54,
+    nome: "Frenzied Flame Seal",
+    categoria: ["Arma", "Encantamento"],
+    cinzaDeGuerra: false,
+    habilidadeUnica: false,
+    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/frenzied_flame_seal_sacred_seal_weapon_elden_ring_wiki_guide_200px.png",
+    descricao: "Selo sagrado que fortalece encantamentos da chama frenética."
+  },
+  {
+    id: 55,
+    nome: "Morgott, the Omen King",
+    categoria: "Boss",
+    elemento: "sagrado",
+    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/morgott_the_omen_king_bosses_elden_ring_wiki_600px.jpg",
+    descricao: "Rei de Leyndell que utiliza armas sagradas e movimentos extremamente agressivos."
+  },
+  {
+    id: 56,
+    nome: "Rennala, Queen of the Full Moon",
+    categoria: "Boss",
+    elemento: "magia",
+    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/rennala_queen_of_the_full_moon_bosses_elden_ring_wiki_600px.jpg",
+    descricao: "Mestra da lua cheia que domina feitiços poderosos e magia ancestral."
+  },
+  {
+    id: 57,
+    nome: "Fire Giant",
+    categoria: "Boss",
+    elemento: "fogo",
+    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/fire_giant_bosses_elden_ring_wiki_600px.jpg",
+    descricao: "Último dos gigantes ancestrais, capaz de invocar chamas devastadoras."
+  },
+  {
+    id: 58,
+    nome: "Dragonlord Placidusax",
+    categoria: "Boss",
+    elemento: "raio",
+    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/dragonlord_placidusax_bosses_elden_ring_wiki_600px.jpg",
+    descricao: "Antigo senhor dragão que manipula tempestades e relâmpagos dourados."
+  },
+  {
+    id: 59,
+    nome: "Radagon of the Golden Order",
+    categoria: "Boss",
+    elemento: "luz",
+    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/radagon_of_the_golden_order_bosses_elden_ring_wiki_600px.jpg",
+    descricao: "Guerreiro divino da Ordem Dourada que luta com força sagrada esmagadora."
+  },
+  {
+    id: 61,
+    nome: "Elden Beast",
+    categoria: "Boss",
+    elemento: "cosmico",
+    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/elden_beast_bosses_elden_ring_wiki_600px.jpg",
+    descricao: "Manifestação divina do Elden Ring e último desafio das Terras Intermédias."
+  },
+
+  {
+    id: 62,
+    nome: "Astel, Naturalborn of the Void",
+    categoria: "Boss",
+    elemento: "cosmico",
+    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/astel_naturalborn_of_the_void_bosses_elden_ring_wiki_600px.jpg",
+    descricao: "Criatura do vazio que manipula estrelas e destrói inimigos com magia cósmica."
+  },
+  {
+    id: 63,
+    nome: "Godfrey, First Elden Lord",
+    categoria: "Boss",
+    elemento: "forca",
+    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/godfrey_first_elden_lord_bosses_elden_ring_wiki_600px.jpg",
+    descricao: "Primeiro Lorde Prístino que luta com força monstruosa e ferocidade absoluta."
+  },
+  {
+    id: 64,
+    nome: "Red Wolf of Radagon",
+    categoria: "Boss",
+    elemento: "magia",
+    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/red_wolf_of_radagon_bosses_elden_ring_wiki_600px.jpg",
+    descricao: "Lobo mágico veloz que conjura espadas de energia durante o combate."
+  },
+  {
+    id: 65,
+    nome: "Ancestor Spirit",
+    categoria: "Boss",
+    elemento: "espiritual",
+    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/ancestor_spirit_bosses_elden_ring_wiki_600px.jpg",
+    descricao: "Espírito ancestral que luta com movimentos graciosos e energia mística."
+  },
+  {
+    id: 66,
+    nome: "Flying Dragon Agheel",
+    categoria: "Boss",
+    elemento: "fogo",
+    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/flying_dragon_agheel_bosses_elden_ring_wiki_600px.jpg",
+    descricao: "Primeiro grande dragão das Terras Intermédias, capaz de cobrir o campo com fogo intenso."
+  },
+  {
+    id: 67,
+    nome: "Leonine Misbegotten",
+    categoria: "Boss",
+    elemento: "ferocidade",
+    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/leonine_misbegotten_bosses_elden_ring_wiki_600px.jpg",
+    descricao: "Guerreiro bestial extremamente agressivo que empunha uma espada colossal."
+  }
+
+
+
 
 ];
