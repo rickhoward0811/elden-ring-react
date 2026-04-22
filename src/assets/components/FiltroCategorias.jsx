@@ -1,19 +1,19 @@
 const categorias = ["Arma", "Feitico", "Encantamento", "Boss"];
 
-function FiltroCategorias({ categoriasSelecionadas, toggleCategoria }) {
+function FiltroCategorias({ categoriasSelecionadas, mudarCategoria }) {
   return (
     <div className="mt-4 text-center">
-      {categorias.map((cat) => (
+      {categorias.map((categ) => (
         <button
-          key={cat}
-          onClick={() => toggleCategoria(cat)}
+          key={categ}
+          onClick={() =>  mudarCategoria(categ)}
           className={`mx-1 my-2 px-4 py-2 border rounded-md ${
-            categoriasSelecionadas.includes(cat)
+            categoriasSelecionadas.includes(categ)
               ? "bg-[#c9b46c] text-[#0d0d0d]"
               : "text-[#c9b46c] border-[#c9b46c]"
           }`}
         >
-          {cat}
+          {categ}
         </button>
       ))}
     </div>

@@ -8,7 +8,7 @@ function App() {
   const [categoriasSelecionadas, setCategorias] = useState([]);
   const [busca, setBusca] = useState("");
 
-  const toggleCategoria = (categoria) => {
+  const mudarCategoria = (categoria) => {
     if (categoriasSelecionadas.includes(categoria)) {
       setCategorias(categoriasSelecionadas.filter((c) => c !== categoria));
     } else {
@@ -23,7 +23,7 @@ function App() {
 
       <FiltroCategorias
         categoriasSelecionadas={categoriasSelecionadas}
-        toggleCategoria={toggleCategoria}
+        mudarCategoria={mudarCategoria}
       />
 
       <h1 className="text-center mt-8 text-[#c9b46c] text-[56px]">

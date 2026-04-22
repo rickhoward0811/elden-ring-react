@@ -2,17 +2,17 @@ import CardItem from "./CardItem.jsx";
 
 function ListaItens({ itens, categoriasSelecionadas, busca }) {
   const itensFiltrados = itens.filter((item) => {
-    const matchCategoria =
+    const passaCategoria =
       categoriasSelecionadas.length === 0 ||
-      categoriasSelecionadas.every((cat) =>
-        item.categoria.includes(cat)
+      categoriasSelecionadas.every((categ) =>
+        item.categoria.includes(categ)
       );
 
     const matchBusca = item.nome
       .toLowerCase()
       .includes(busca.toLowerCase());
 
-    return matchCategoria && matchBusca;
+    return passaCategoria && matchBusca;
   });
 
   if (itensFiltrados.length === 0) {

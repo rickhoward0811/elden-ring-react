@@ -34,7 +34,7 @@ export const itens = [
   {
     id: 5,
     nome: "Frenzied Burst",
-    categoria: "Encantamento",
+    categoria: ["Encantamento", "Arma"],
     imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/frenzied_burst_incantation_elden_ring_wiki_guide_200px.png",
     descricao: "Dispara um feixe concentrado de loucura à longa distância."
   },
@@ -57,7 +57,7 @@ export const itens = [
   {
     id: 8,
     nome: "Lightning Spear",
-    categoria: "Encantamento",
+    categoria: ["Encantamento", "Arma"],
     imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/lightning_spear_incantation_elden_ring_wiki_guide_200px.png",
     descricao: "Lança uma lança de raio contra o inimigo."
   },
@@ -87,16 +87,30 @@ export const itens = [
   {
     id: 12,
     nome: "Bestial Sling",
-    categoria: "Encantamento",
+    categoria: ["Encantamento", "Arma"],
     imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/bestial_sling_incantation_elden_ring_wiki_guide_200px.png",
     descricao: "Arremessa pedras afiadas em alta velocidade contra o inimigo."
   },
   {
     id: 13,
     nome: "Dragonfire",
-    categoria: "Encantamento",
+    categoria: ["Encantamento", "Arma"],
     imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/dragonfire_incantation_elden_ring_wiki_guide_200px.png",
     descricao: "Invoca a cabeça de um dragão que cospe fogo contínuo."
+  },
+  {
+    id: 14,
+    nome: "Rotten Breath",
+    categoria: "Encantamento",
+    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/rotten_breath_incantation_elden_ring_wiki_guide_200px.png",
+    descricao: "Expele um sopro de podridão escarlate que causa dano contínuo."
+  },
+  {
+    id: 15,
+    nome: "Black Blade",
+    categoria: ["Encantamento", "Arma"],
+    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/black_blade_incantation_elden_ring_wiki_guide_200px.png",
+    descricao: "Arremessa uma lâmina negra que reduz a vida máxima do inimigo temporariamente."
   },
   {
     id: 16,
@@ -115,7 +129,7 @@ export const itens = [
   {
     id: 18,
     nome: "Giantsflame Take Thee",
-    categoria: "Encantamento",
+    categoria: ["Encantamento", "Arma"],
     imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/giantsflame_take_thee_incantation_elden_ring_wiki_guide_200px.png",
     descricao: "Lança uma enorme bola de fogo dos gigantes que explode ao impacto."
   },
@@ -152,7 +166,7 @@ export const itens = [
     categoria: "Arma",
     cinzaDeGuerra: true,
     habilidadeUnica: false,
-    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/great_katana_great_katana_elden_ring_shadow_of_the_erdtree_dlc_wiki_guide_200px.png",
+    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/greatsword_colossal_swords_elden_ring_wiki_guide_200px.png",
     descricao: "Espada colossal inspirada na arma de Guts de Berserk, extremamente poderosa e versátil."
   },
   {
@@ -470,6 +484,14 @@ export const itens = [
     imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/radagon_of_the_golden_order_bosses_elden_ring_wiki_600px.jpg",
     descricao: "Guerreiro divino da Ordem Dourada que luta com força sagrada esmagadora."
   },
+  
+  {
+    id: 60,
+    nome: "Comet",
+    categoria: "Feitico",
+    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/comet_sorcery_elden_ring_wiki_guide_200px.png",
+    descricao: "Dispara um poderoso projétil mágico direto com alto dano."
+  },
   {
     id: 61,
     nome: "Elden Beast",
@@ -526,9 +548,209 @@ export const itens = [
     elemento: "ferocidade",
     imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/leonine_misbegotten_bosses_elden_ring_wiki_600px.jpg",
     descricao: "Guerreiro bestial extremamente agressivo que empunha uma espada colossal."
-  }
+  },
+  {
+    id: 68,
+    nome: "Night Comet",
+    categoria: "Feitico",
+    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/night_comet_sorcery_elden_ring_wiki_guide_200px.png",
+    descricao: "Dispara um projétil invisível difícil de ser evitado pelos inimigos."
+  },
+  {
+    id: 69,
+    nome: "Flame, Grant Me Strength",
+    categoria: "Encantamento",
+    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/flame_grant_me_strength_incantation_elden_ring_wiki_guide_200px.png",
+    descricao: "Aumenta o poder de ataque físico e de fogo temporariamente."
+  },
+  {
+    id: 70,
+    nome: "Golden Vow",
+    categoria: "Encantamento",
+    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/golden_vow_incantation_elden_ring_wiki_guide_200px.png",
+    descricao: "Aumenta o ataque e defesa do jogador e aliados próximos."
+  },
+
+  {
+    id: 71,
+    nome: "Explosive Ghostflame",
+    categoria: "Feitico",
+    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/explosive_ghostflame_sorcery_elden_ring_wiki_guide_200px.png",
+    descricao: "Dispara uma chama fantasma que explode e causa dano contínuo na área."
+  },
+  {
+    id: 72,
+    nome: "Greyoll's Roar",
+    categoria: "Encantamento",
+    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/greyolls_roar_incantation_elden_ring_wiki_guide_200px.png",
+    descricao: "Um rugido dracônico poderoso que enfraquece inimigos próximos."
+  },
+  {
+    id: 73,
+    nome: "Shard Spiral",
+    categoria: "Feitico",
+    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/shard_spiral_sorcery_elden_ring_wiki_guide_200px.png",
+    descricao: "Projétil mágico em espiral que atravessa inimigos causando múltiplos acertos."
+  },
+  {
+    id: 74,
+    nome: "Death Lightning",
+    categoria: "Encantamento",
+    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/death_lightning_incantation_elden_ring_wiki_guide_200px.png",
+    descricao: "Invoca relâmpagos da morte que caem ao redor, causando dano massivo e status de morte."
+  },
+  {
+    id: 75,
+    nome: "Frozen Lightning Spear",
+    categoria: "Encantamento",
+    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/frozen_lightning_spear_incantation_elden_ring_wiki_guide_200px.png",
+    descricao: "Crava uma lança de raio congelante no chão que explode em área."
+  },
+  {
+    id: 76,
+    nome: "Zamor Ice Storm",
+    categoria: "Feitico",
+    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/zamor_ice_storm_sorcery_elden_ring_wiki_guide_200px.png",
+    descricao: "Cria uma tempestade de gelo ao redor do conjurador causando dano contínuo."
+  },
 
 
+  {
+    id: 77,
+    nome: "Halo Scythe",
+    categoria: "Arma",
+    cinzaDeGuerra: false,
+    habilidadeUnica: true,
+    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/halo_scythe_reaper_weapon_elden_ring_wiki_guide_200px.png",
+    descricao: "Foice sagrada que dispara anéis de luz contra os inimigos."
+  },
+  {
+    id: 78,
+    nome: "Ordovis's Greatsword",
+    categoria: "Arma",
+    cinzaDeGuerra: false,
+    habilidadeUnica: true,
+    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/ordoviss_greatsword_weapon_elden_ring_wiki_guide_200px.png",
+    descricao: "Espada dos Cavaleiros Crucible que libera uma poderosa onda sagrada giratória."
+  },
+
+  {
+    id: 79,
+    nome: "Night Maiden's Mist",
+    categoria: "Feitico",
+    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/night_maidens_mist_sorcery_elden_ring_wiki_guide_200px.png",
+    descricao: "Cria uma névoa invisível que causa dano contínuo aos inimigos dentro da área."
+  },
+
+  {
+    id: 80,
+    nome: "Marais Executioner's Sword",
+    categoria: "Arma",
+    cinzaDeGuerra: false,
+    habilidadeUnica: true,
+    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/marais_executioners_sword_weapon_elden_ring_wiki_guide_200px.png",
+    descricao: "Espada que gira violentamente e causa múltiplos acertos com energia arcana."
+  },
+  {
+    id: 81,
+    nome: "Gelmir's Fury",
+    categoria: "Feitico",
+    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/gelmirs_fury_sorcery_elden_ring_wiki_guide_200px.png",
+    descricao: "Dispara magma fervente em rajadas explosivas que causam dano em área."
+  },
+  {
+    id: 82,
+    nome: "Bloodboon",
+    categoria: "Encantamento",
+    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/bloodboon_incantation_elden_ring_wiki_guide_200px.png",
+    descricao: "Lança chamas de sangue que causam dano contínuo e acumulam sangramento."
+  },
+  {
+    id: 83,
+    nome: "Unendurable Frenzy",
+    categoria: "Encantamento",
+    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/unendurable_frenzy_incantation_elden_ring_wiki_guide_200px.png",
+    descricao: "Dispara múltiplos feixes de loucura em todas as direções continuamente."
+  },
+  {
+    id: 84,
+    nome: "Meteorite of Astel",
+    categoria: "Feitico",
+    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/meteorite_of_astel_sorcery_elden_ring_wiki_guide_200px.png",
+    descricao: "Invoca uma chuva devastadora de meteoros cósmicos sobre os inimigos."
+  },
+  {
+    id: 85,
+    nome: "Bolt of Death",
+    categoria: "Encantamento",
+    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/death_lightning_incantation_elden_ring_wiki_guide_200px.png",
+    descricao: "Invoca relâmpagos sombrios que causam dano e acumulam efeito de morte."
+  },
+  {
+    id: 86,
+    nome: "Glintblade Phalanx",
+    categoria: "Feitico",
+    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/glintblade_phalanx_sorcery_elden_ring_wiki_guide_200px.png",
+    descricao: "Cria lâminas mágicas flutuantes que atacam automaticamente os inimigos."
+  },
+
+  {
+    id: 87,
+    nome: "Crystal Torrent",
+    categoria: "Feitico",
+    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/crystal_torrent_sorcery_elden_ring_wiki_guide_200px.png",
+    descricao: "Dispara uma rajada contínua de cristais mágicos contra o inimigo."
+  },
+  {
+    id: 88,
+    nome: "Lansseax's Glaive",
+    categoria: "Encantamento",
+    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/lansseaxs_glaive_incantation_elden_ring_wiki_guide_200px.png",
+    descricao: "Invoca uma lâmina de raio gigante que corta os inimigos em arco."
+  },
+  {
+    id: 89,
+    nome: "Sword Dance",
+    categoria: "Arma",
+    cinzaDeGuerra: true,
+    habilidadeUnica: false,
+    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/ash_of_war_sword_dance_elden_ring_wiki_guide_200px.png",
+    descricao: "Cinza de Guerra que executa uma sequência rápida de cortes giratórios."
+  },
+  {
+    id: 90,
+    nome: "Crystal Release",
+    categoria: "Feitico",
+    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/crystal_release_sorcery_elden_ring_wiki_guide_200px.png",
+    descricao: "Libera uma explosão de cristais mágicos em área ao redor do conjurador."
+  },
+  {
+    id: 91,
+    nome: "Rykard, Lord of Blasphemy",
+    categoria: "Boss",
+    elemento: "fogo",
+    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/rykard_lord_of_blasphemy_bosses_elden_ring_wiki_600px.jpg",
+    descricao: "Serpente gigante que se alimenta de guerreiros e usa lava em combate."
+  },
+
+  {
+    id: 92,
+    nome: "Mohg, the Omen",
+    categoria: "Boss",
+    elemento: "sangue",
+    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/mohg_the_omen_bosses_elden_ring_wiki_600px.jpg",
+    descricao: "Versão mais primitiva de Mohg, usando ataques brutais e magia de sangue."
+  },
+
+  {
+    id: 93,
+    nome: "Hoarah Loux",
+    categoria: "Boss",
+    elemento: "forca",
+    imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/hoarah_loux_bosses_elden_ring_wiki_600px.jpg",
+    descricao: "Forma verdadeira de Godfrey, extremamente agressivo."
+  },
+  
 
 
 ];
