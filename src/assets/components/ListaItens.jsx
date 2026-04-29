@@ -1,4 +1,4 @@
-import CardItem from "./CardItem.jsx";
+import Cards from "./Cards.jsx";
 
 function ListaItens({ itens, categoriasSelecionadas, busca }) {
   const itensFiltrados = itens.filter((item) => {
@@ -26,7 +26,7 @@ function ListaItens({ itens, categoriasSelecionadas, busca }) {
   return (
     <div className="grid grid-cols-[repeat(auto-fill,minmax(220px,1fr))] gap-5 p-8">
       {itensFiltrados.map((item) => (
-        <CardItem key={item.id} item={item} />
+        <Cards key={item.id} item={item} />
       ))}
     </div>
   );

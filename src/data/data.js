@@ -4,7 +4,8 @@ export const itens = [
     nome: "Comet Azur",
     categoria: "Feitico",
     imagem: "https://eldenring.wiki.fextralife.com/file/Elden-Ring/comet_azur_sorcery_elden_ring_wiki_guide_200px.png",
-    descricao: "Dispara um feixe contínuo de energia mágica extremamente poderoso."
+    descricao: "Dispara um feixe contínuo de energia mágica extremamente poderoso.",
+    selecionado: false
   },
   {
     id: 2,

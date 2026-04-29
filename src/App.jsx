@@ -5,6 +5,7 @@ import FiltroCategorias from "./assets/components/FiltroCategorias.jsx";
 import ListaItens from "./assets/components/ListaItens.jsx";
 
 function App() {
+  const [destacados, setDestacados] = useState([]);
   const [categoriasSelecionadas, setCategorias] = useState([]);
   const [busca, setBusca] = useState("");
 
